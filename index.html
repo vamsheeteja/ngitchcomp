@@ -1,8 +1,12 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>NGITCH</title>
+<title>NGIT Code Help</title>
+<link rel="icon" href="images/logo.png" type = "image/x-icon">
 <!-- <meta name="keywords" content="black beat, free website template, html, css, free css template" />
 <meta name="description" content="Black Beat is a free HTML CSS website template from templatemo.com" /> -->
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
@@ -13,6 +17,64 @@ function clearText(field)
     else if (field.value == '') field.value = field.defaultValue;
 }
 </script>
+<style>
+    
+/* GLOBAL STYLES */
+body {
+  
+  justify-content: center;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .9%; /* Adjust as needed */
+  animation: 
+    typing 4.5s steps(200, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+    @import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+    .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff6905, 0 0 40px #ff6905, 0 0 50px #ff6905, 0 0 60px #ff6905, 0 0 70px #ff6905;
+        }
+        
+        to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #6aff07, 0 0 40px #6aff07, 0 0 50px #6aff07, 0 0 60px #6aff07, 0 0 70px #6aff07, 0 0 80px #6aff07;
+        }
+    }
+
+    
+
+</style>
+
 </head>
 <body>
 
@@ -33,31 +95,33 @@ function clearText(field)
     <div id="templatemo_banner">
     
     	<div id="site_title">
-            <h1>
-            <a href="#">
-            	<!-- <img src="images/templatemo_logo.png" alt="logo" /> -->
-                <a href="index.html"><h1 style="font-size : 59px; color: rgb(255, 255, 255); font-family:'Courier New', Courier, monospace; -webkit-text-stroke-width: 3px; -webkit-text-stroke-color: black">Ngit Code Help</h1> </a>
+           <h1>
+            
+                <a href="index.html"><h1 style="font-size : 59px; color: rgb(50, 102, 212); text-shadow: 0 0 25px blue, 0 0 4px rgb(253, 249, 9); -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: rgb(0, 0, 0);" class="glow">NGIT Code Help </h1></a>
 	            <br>
-                <span style="font-family: cursive; font-size: 20px;  -webkit-text-stroke-width: .5px; -webkit-text-stroke-color: rgb(14, 233, 25)">Helping Hands</span></a>
+                
+                <span style="font-family: 'Harry Potter'; font-size: 20px; text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 1px 1px 2px black, 0 0 25px blue, 0 0 4px rgb(141, 48, 4); -webkit-text-stroke-width: .5px; -webkit-text-stroke-color: rgb(14, 233, 25)">Helping Hands</span>
+            
             </h1>
         </div>
         
         <p style="color: blanchedalmond;">
         	“Welcome folks, here you gonna find all the necessary stuffs related to Computer Science. This also includes 
-            the do's and dont's as a programmer, links to awesome resources and required tutorials, courses, books etc. There 
-            is a Ocean of tutorials on the internet. Some may get trapped with that, So here you can get the intuition and tips 
+            the do's and dont's as a programmer, links to awesome resources etc CS related. So here you can get the intuition and tips 
             to gain the Required and Necessary Skills.” 
-        
         </p>
     
   </div> <!-- end of banner -->
-    
+    <div>
+	    <marquee><p style="color: rgb(139, 241, 228); text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 1px 1px 2px black, 0 0 25px blue, 0 0 4px rgb(255, 255, 255);">
+            <b style="color: brown;"><i>&#128276; Kripya Dhyan De: &#x1F514;</i></b> Attention folks, i Understand that you guys are lazy to read the Questions on the Question paper itself.. and after seeing kind of paras here, you will surely skip them. But trust me, it contains plain simple english.. you will feel like i am talking to you.. read the content. It is Simple.</p> </marquee> 
+    </div>
     <div id="templatemo_content">
 
-        <div id="main_column">
+        <div id="main_column" class="col-md-2">
                 
                     <div class="section_w560">
-                        <h2><span>Introducing </span>Computer Science (and Engineering)</h2>
+                        <h2 class="typewriter"><span>Introducing </span>Computer Science(Engineering)</h2>
                         
                         <img class="image_wrapper fl_image" src="images/cse.jpg" alt="image" style="height: 152px; width: 202px" />
                        
@@ -76,7 +140,7 @@ function clearText(field)
                     
     	            <div class="section_w560">
                     
-                      <h2><span> Intuition </span> to College Life </h2>
+                      <h2 class="typewriter"><span> Intuition </span> to College Life </h2>
                         
                          <img class="image_wrapper fr_image" src="images/clg.jpeg" alt="image" style="height: 152px; width: 202px"  />              
                        
@@ -86,7 +150,7 @@ function clearText(field)
                     <div class="cleaner_h20"></div>
                     
                     
-                    <h2><span>Understanding the</span> Campus Placements</h2>
+                    <h2 class="typewriter"><span>Understanding the</span> Campus Placements</h2>
                     
                     <img class="image_wrapper fl_image" src="images/placement.jpg" alt="image" style="height: 152px; width: 202px" />
                        
@@ -109,7 +173,7 @@ function clearText(field)
                         </p>
                     <div class="cleaner_h20"></div>
                     
-                    <h2><span> Want to Start </span> What?, How?, Where?</h2>
+                    <h2 class="typewriter"><span> Want to Start </span> What?, How?, Where?</h2>
                     <h3>Whats the picture</h3>
                     <img class="image_wrapper fr_image" src="images/whw.jpg" alt="image" style="height: 152px; width: 202px" />
                         
@@ -160,7 +224,7 @@ function clearText(field)
                             &ldquo; At starting everything will be small small dots. But as you keep on moving forward, each and every dot will be connected and things will be slowly understandable by you. So all the best :) &rdquo; &#128521;
                         </p>
 
-    	<div class="button bottom_01"><a href="resources.html">Resources</a></div>    
+    	<div class="button bottom_01"><a href="resources.html" class="col-md-2">Resources</a></div>    
                     </div>
                     
                     <div class="cleaner"></div>
@@ -168,7 +232,7 @@ function clearText(field)
 
         </div> <!-- end of main column -->
                 
-                <div id="side_column">
+                <!-- <div id="side_column" class="col-md-2">
                 
                     <div class="side_column_box">
                     	<div class="bottom"></div>
@@ -179,15 +243,10 @@ function clearText(field)
                         
                             <div class="news_section">
                                 <img class="image_wrapper" src="images/templatemo_image_02.jpg" alt="image" />
-                                <h3>Etiam tempus tellus eget </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et ipsum sem, ut lobortis dui.  <a href="#">Read more...</a></p>
+                                <h3>Just Started. Work in Progress </h3>
+                                <p>Ngit Code Help launched on 13-may-2021</p>
                             </div>
                             
-                            <div class="news_section">
-                                <img class="image_wrapper" src="images/templatemo_image_03.jpg" alt="image" />
-                                <h3>Nam quis aliquet quam</h3>
-                                <p>Sed pharetra neque vel mauris auctor ornare. Maecenas urna lorem, consectetur eget consectetur id. <a href="#">Read more...</a></p>
-                            </div>
                             
                             <div class="button bottom_02"><a href="#">View All</a></div>   
 
@@ -197,7 +256,7 @@ function clearText(field)
                     
                     <div class="cleaner_h20"></div>
                     
-                    <div class="side_column_box">
+                    <!-- <div class="side_column_box">
                     	<div class="bottom"></div>
                     
                         <h2>Newsletter</h2>
@@ -212,10 +271,11 @@ function clearText(field)
                             <div class="cleaner"></div>
                             
 						</div>
-                    </div>
+                    </div> -->
+                    <!-- <img src="images/consistent.jpeg" height="300px" width="230px"/> -->
                 
                 </div> <!-- end of side column -->
-    
+     -->
         <div class="cleaner"></div>
     
 	</div> <!-- end of content -->
@@ -232,12 +292,10 @@ function clearText(field)
         </ul>
     
         Copyright © 2021 <a href="#">NGIT Code Help</a> | 
-        
+        <div align=center>This template is taken from Internet and modified according to the needs.</div>
     </div> <!-- end of footer -->
 
 </div> <!-- end of container -->
-
-<div align=center>This template is taken from Internet </div>
 
 </body>
 </html>

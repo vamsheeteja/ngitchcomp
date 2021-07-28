@@ -1,8 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>NGITCH</title>
+<title>NGIT Code Help</title>
+<link rel="icon" href="images/logo.png" type = "image/x-icon">
 <!-- <meta name="keywords" content="black beat, free website template, html, css, free css template" />
 <meta name="description" content="Black Beat is a free HTML CSS website template from templatemo.com" /> -->
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
@@ -14,25 +17,64 @@ function clearText(field)
 }
 </script>
 <style>
-    table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        table-layout: fixed;
-        width: 100%;
-        box-shadow: 3px 3px 5px 0px rgb(255, 255, 255);
+    
+    /* GLOBAL STYLES */
+    body {
+      
+      justify-content: center;
     }
     
-    td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
+    /* DEMO-SPECIFIC STYLES */
+    .typewriter {
+      color: #fff;
+      font-family: monospace;
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid orange; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .9%; /* Adjust as needed */
+      animation: 
+        typing 3.5s steps(200, end),
+        blink-caret .5s step-end infinite;
     }
     
-    /* tr:nth-child(even) {
-        background-color: #eff1f1;
-    } */
-  </style>
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: orange }
+    }
+    
+    
+        @import url('https://fonts.cdnfonts.com/css/harry-potter');
+    
+        .glow {
+        font-size: 80px;
+        color: #fff;
+        text-align: center;
+        animation: glow 1s ease-in-out infinite alternate;
+        }
+    
+        @-webkit-keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+            }
+            
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+            }
+        }
+    
+        
+    
+    </style>
 </head>
+
 <body>
 
 <div id="templatemo_container">
@@ -53,11 +95,9 @@ function clearText(field)
     
     	<div id="site_title">
             <h1>
-            <a href="#">
-            	<!-- <img src="images/templatemo_logo.png" alt="logo" /> -->
-                <a href="index.html"><h1 style="font-size : 59px; color: rgb(255, 255, 255); font-family:'Courier New', Courier, monospace; -webkit-text-stroke-width: 3px; -webkit-text-stroke-color: black">Ngit Code Help</h1> </a>
+                <a href="index.html"><h1 style="font-size : 59px; color: rgb(255, 255, 255); text-shadow: 0 0 25px blue, 0 0 4px rgb(253, 249, 9); -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: rgb(0, 0, 0);" class="glow">NGIT Code Help </h1></a>
 	            <br>
-                <span style="font-family: cursive; font-size: 20px;  -webkit-text-stroke-width: .5px; -webkit-text-stroke-color: rgb(14, 233, 25)">Helping Hands</span></a>
+                <span style="font-family: 'Harry Potter'; font-size: 20px; text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 1px 1px 2px black, 0 0 25px blue, 0 0 4px rgb(141, 48, 4); -webkit-text-stroke-width: .5px; -webkit-text-stroke-color: rgb(14, 233, 25)">Helping Hands</span>
             </h1>
         </div>
     
@@ -66,7 +106,7 @@ function clearText(field)
     <div id="templatemo_content"> 
 
         <div>
-             <h2> Coming Soon...  &#128526;</h2>    
+             <p>You can get in touch with email to: <b style="color: azure;">sparehelp194@gmail.com</b></p>    
             
         </div> <!-- end of main column -->
               
@@ -86,10 +126,9 @@ function clearText(field)
     
         Copyright © 2021 <a href="index.html">NGIT Code Help</a>
         
+<div align=center>This template is taken from Internet </div>
     </div> <!-- end of footer -->
 
 </div> <!-- end of container -->
-
-<div align=center>This template is taken from Internet </div>
 </body>
 </html>

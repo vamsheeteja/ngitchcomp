@@ -157,6 +157,7 @@ h4 {
 	width: 140px;
 	height: 40px;
 	padding-top: 19px;
+	font-family: 'Harry Potter';
 	font-size: 18px;
 	text-align: center;
 	font-weight: normal;
@@ -189,6 +190,7 @@ h4 {
 	text-align: center;
 }
 
+
 #site_title h1 a {
 	margin: 0px;
 	padding: 0px;
@@ -196,6 +198,8 @@ h4 {
 	color: #cdcf19;
 	font-weight: normal;
 	text-decoration: none;
+	font-family: 'Harry Potter', sans-serif;
+	/* font-family:'Courier New', Courier, monospace; */
 }
 
 #site_title h1 a:hover {
@@ -218,6 +222,8 @@ h4 {
 	line-height: 30px;
 	color: #565546;
 }
+
+
 /* end of banner */
 
 /* content */
@@ -235,7 +241,7 @@ h4 {
 	height: 28px;
 	padding: 0;
 	margin: 0 0 25px 0;
-	font-size: 24px;
+	font-size: 25px;
 }
 
 #templatemo_content h2 span {
@@ -257,8 +263,8 @@ h4 {
 }
 
 #main_column {
-	float: right;
-	width: 540px;
+	// float: right;
+	// width: 540px;
 }
 
 #main_column h2 {
@@ -295,6 +301,7 @@ h4 {
 	margin-bottom: 25px;
 }
 
+/*
 .inputfield {
 	height: 16px;
 	width: 245px;
@@ -315,7 +322,7 @@ h4 {
 	vertical-align: bottom;
 	white-space: pre;
 }
-
+*/
 .section_w540 {
 	clear: both;
 	width: 540px;
